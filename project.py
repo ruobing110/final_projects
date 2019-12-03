@@ -240,7 +240,7 @@ a = lrModel.intercept_
 b = lrModel.coef_
 a = float(a)
 b = float(b)
-print('该模型的简单线性回归方程为y = {} + {} * x'.format(a, b))
+print('y = {} + {} * x'.format(a, b))
 
 
 
