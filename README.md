@@ -17,4 +17,4 @@ Dataset used:
 ## 3. Result representation
 
 
-![image](https://github.com/ruobing110/final_projects/raw/master/figures/figures/2011_2017 house price box plot.jpg)
+![image](https://github.com/ruobing110/final_projects/raw/master/figures/2011_2017_house_price_box_plot.jpg)
