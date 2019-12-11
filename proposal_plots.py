@@ -58,14 +58,14 @@ ax.set_xticklabels(ax.get_xticklabels(), rotation=-90)
 plt.xlabel('Time')
 plt.ylabel('Price')
 plt.title('2011 - 2017 house price box plot')
-f.savefig('2011 - 2017 house price box plot.jpg')
+f.savefig('2011_2017 house price box plot.jpg')
 
 f, ax = plt.subplots(figsize=(40, 15))
 sns.boxplot(y='price', x='month', hue='subway', data= house_price_fixed)
 plt.xlabel('Month')
 plt.ylabel('Price')
 plt.title('2011 - 2017 house price influenced by subway')
-f.savefig('2011 - 2017 house price influenced by subway.jpg')
+f.savefig('2011_2017 house price influenced by subway.jpg')
 
 # draw histogram using rent data
 rent = pd.read_csv('rentpresent.csv', ',')
