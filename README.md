@@ -16,7 +16,7 @@ Dataset used:
 
 ## 3. Result representation
 
-* Proposal 1: (Assume the house sale price keep increasing from 2011 to 2017. If not, find out policy factors cause the difference. )
+* Proposal 1: Assume the house sale price keep increasing from 2011 to 2017. If not, find out policy factors cause the difference. 
 >The boxplot shows that the most of the time the house price keep rising, from around 20,000 to around 6000.  But two time period deserves focus. One is the dramatical increase happens from 2016 Feb, and the other is the sudden decrease from 2017 April. The result of first hypothyse is not that accurate. 
 
 ![image](https://github.com/ruobing110/final_projects/raw/master/figures/2011_2017_house_price_box_plot.jpg)
@@ -31,16 +31,22 @@ Beijing Municipal Government issued new rules limiting the number of homes each 
 The new rules ban Beijing families who own two or more apartments and non-Beijing registered families who own one or more apartment from buying more homes. and the new rules allow banks to further raise the down-payment requirements for apartment buyers and raise interest rates on mortagages. The minimum down payment requirements was raised to 35% for first home and 60% for the second homes
 
 <div align=center>
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2011_house_price_bar_plot.jpg" height="300px" alt="" >
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2012_house_price_bar_plot.jpg" height="300px" alt="">
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2013_house_price_bar_plot.jpg" height="300px" alt="">
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2014_house_price_bar_plot.jpg" height="300px" alt="">    
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2011_house_price_bar_plot.jpg" height="250px" alt="" >
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2012_house_price_bar_plot.jpg" height="250px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2013_house_price_bar_plot.jpg" height="250px" alt="">
+    
 </div>
 
 <div align=center>
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2015_house_price_bar_plot.jpg" height="300px" alt="" >
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2016_house_price_bar_plot.jpg" height="300px" alt="">
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2017_house_price_bar_plot.jpg" height="300px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2014_house_price_bar_plot.jpg" height="250px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2015_house_price_bar_plot.jpg" height="250px" alt="" >
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2016_house_price_bar_plot.jpg" height="250px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2017_house_price_bar_plot.jpg" height="250px" alt="">
 </div>
+
+* Proposal 2: Assume that the house sale price is influenced by trade time, July and August might be the highest during a year.  
+>In this case, first we use the sale price dataset for a quick check to see the tendency of the house sale price. 
+The blue box represents house with no subway nearby, and the orange box represents those house with a subway station in 3km distance from the houses. 
+From the box plot, the median of unit house sale price per square meters with metro is about 10,000 RMB, $1300 higher than those without a subway station.
 
 
