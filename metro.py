@@ -1,17 +1,13 @@
-
 import pandas as pd
 import json
 import urllib
 from urllib import request
 import pypinyin as py
 
-
 html = urllib.request.urlopen('http://map.amap.com/service/subway?_1573597615651&srhdata=1100_drw_beijing.json')
 hjson = json.loads(html.read().decode("utf-8"))
-
 hjson = hjson['l']
 
-# print(hjson)
 
 def pinyin(pinyin_list):
     content = ''
@@ -21,6 +17,7 @@ def pinyin(pinyin_list):
 
 subway = pd.DataFrame()
 subway_s = pd.DataFrame()
+# request data from website
 for i in range(len(hjson)):
     line = hjson[i]     # subway line data
     line_code = hjson[i]['ls']  # line code
@@ -29,8 +26,8 @@ for i in range(len(hjson)):
     name = pinyin(name)
     # print(name)
     order = hjson[i]['x']   # loop
-    loop = hjson[i]['lo']   # 环线
-    status = hjson[i]['su']     # 可用状态
+    loop = hjson[i]['lo']   # loop line
+    status = hjson[i]['su']     # under construction or not
 
     subway_line = pd.DataFrame([{'line code': line_code, 'line name': name, 'order': order,
                                  'loop': loop, 'status': status}])
@@ -38,9 +35,8 @@ for i in range(len(hjson)):
 
     for j in range(len(line['st'])):
 
-        station = line['st']    #站点数据
-        # sname = station[j]['n']     # 站点名称
-        spinyin = station[j]['sp']  # 站点拼音
+        station = line['st']    # station
+        spinyin = station[j]['sp']  # station name
         spos = station[j]['sl']     # lat & longitude
         spos_list = spos.split(',')
         slon = spos_list[0]     # longitude
