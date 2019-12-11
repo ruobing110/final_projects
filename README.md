@@ -31,17 +31,17 @@ Beijing Municipal Government issued new rules limiting the number of homes each 
 The new rules ban Beijing families who own two or more apartments and non-Beijing registered families who own one or more apartment from buying more homes. and the new rules allow banks to further raise the down-payment requirements for apartment buyers and raise interest rates on mortagages. The minimum down payment requirements was raised to 35% for first home and 60% for the second homes
 
 <div align=center>
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2011_house_price_bar_plot.jpg" height="300px" alt="" >
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2012_house_price_bar_plot.jpg" height="300px" alt="">
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2013_house_price_bar_plot.jpg" height="300px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2011_house_price_bar_plot.jpg" height="250px" alt="" >
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2012_house_price_bar_plot.jpg" height="250px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2013_house_price_bar_plot.jpg" height="250px" alt="">
     
 </div>
 
 <div align=center>
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2014_house_price_bar_plot.jpg" height="300px" alt="">
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2015_house_price_bar_plot.jpg" height="300px" alt="" >
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2016_house_price_bar_plot.jpg" height="300px" alt="">
-<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2017_house_price_bar_plot.jpg" height="300px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2014_house_price_bar_plot.jpg" height="250px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2015_house_price_bar_plot.jpg" height="250px" alt="" >
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2016_house_price_bar_plot.jpg" height="250px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/2017_house_price_bar_plot.jpg" height="250px" alt="">
 </div>
 
 * Proposal 2: Assume that the house sale price is influenced by trade time, July and August might be the highest during a year.  
