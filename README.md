@@ -52,14 +52,33 @@ it makes the house sale price keep going up. Only in 2011, the house sale price 
 
 * Proposal 3: People will be likely to pay more to buy or rent a house near to a metro station. The price will decrease as the distance between house and metro station increase, e.g house price decrease 1000 RMB every KM further from metro station. 
 
+
 >In this case, first we use the sale price dataset for a quick check to see the tendency of the house sale price. 
 The blue box represents house with no subway nearby, and the orange box represents those house with a subway station in 3km distance from the houses. 
-From the box plot, the median of unit house sale price per square meters with metro is about 10,000 RMB, $1300 higher than those without a subway station.
+>From the box plot, the median of unit house sale price per square meters with metro is about 10,000 RMB, $1300 higher than those without a subway station.
 
 ![image](https://github.com/ruobing110/final_projects/raw/master/figures/2011_2017_house_price_influenced_by_subway.jpg)
 
+>The histogram of house rent price shows that there are two concentrated house rent price. 
+One is around 3500 RMB, about 500 dollars, and the other one is about 5700. This is because the difference of house area. 
+The house area ranges from 40 m2 to more than 150 m2. 
 
 ![image](https://github.com/ruobing110/final_projects/raw/master/figures/house_price_histogram_with_mark.png)
+
+In this subway dataset and house rent dataset, we have the longitude and latitude for each house and subway station. 
+After calculation , we get which subway station is the nearest one for a house and the distance between the house and its nearest metro station. 
+
+![image](https://github.com/ruobing110/final_projects/raw/master/figures/)
+
+
+And the boxplot is the overiew of the nearest distance and average rent
+The horizontal  axis represent the distance within 1 kilometer, the distance between 1 and two km and so on. 
+The y axis represent the average rent by square meters. As we can see from this plot, as the distance increase, the rent per square meters decrease. 
+And the calculation result shows the distance between house and metro station. 
+For that distance within 1km, the average rents per square meters is 95, in total 4697 each house. While that distance between 1km and 2 km, 
+the average price decrease to 70 per square meters, in total 4024 each house .  
+
+
 
 
 
