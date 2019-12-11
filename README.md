@@ -68,7 +68,7 @@ The house area ranges from 40 m2 to more than 150 m2.
 In this subway dataset and house rent dataset, we have the longitude and latitude for each house and subway station. 
 After calculation , we get which subway station is the nearest one for a house and the distance between the house and its nearest metro station. 
 
-![image](https://github.com/ruobing110/final_projects/raw/master/figures/)
+![image](https://github.com/ruobing110/final_projects/raw/master/figures/house_sale_price_with_metro_distance.jpg)
 
 
 And the boxplot is the overiew of the nearest distance and average rent
