@@ -14,4 +14,6 @@ Dataset used:
 * Assume that the house sale price is influenced by trade time, July and August might be the highest during a year.  
 * People will be likely to pay more to buy or rent a house near to a metro station. The price will decrease as the distance between house and metro station increase, e.g house price decrease 1000 RMB every KM further from metro station. 
 
+## 3. Result representation
+
 
