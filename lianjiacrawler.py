@@ -5,14 +5,14 @@ import pandas as pd
 
 
 
-# 获取链家网连接
+# define headers
 headers={
 "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36"
 }
 
 
-# #获取每个页面租房信息的Url
-def gethouseUrl(pageNumber):
+# get detailed page url
+def gethouseUrl(pageNumber) -> object:
     houseurl = []
     pageurl = "https://bj.lianjia.com/zufang/" +  'pg%s/#contentList' % pageNumber
     html = requests.get(pageurl,headers=headers)
@@ -26,7 +26,6 @@ def gethouseUrl(pageNumber):
 
 
 # get detailed information for longtitude and latitude
-
 def get_location(url):
     sub = requests.get(url, headers=headers)
     soup1 = BeautifulSoup(sub.text, 'html.parser')
@@ -39,7 +38,7 @@ def get_location(url):
     lat = str(lat).split(':')[1][1:-2]
     return lon,lat
 
-
+# get detailed information for each house
 def get_info(houseurl):
     detail = {}
     response = requests.get(houseurl, headers=headers)
@@ -57,15 +56,16 @@ def get_info(houseurl):
         detail['latitude'] = get_location(houseurl)[1]
     return detail
 
-eachrow= []
-for i in range(99):
-    houseurl = gethouseUrl(i)
-    for url in houseurl:
-        info = get_info(url)
-        print(info)
-        eachrow.append(info)
+if __name__ == '__main__':
+    eachrow= []
+    for i in range(99):
+        houseurl = gethouseUrl(i)
+        for url in houseurl:
+            info = get_info(url)
+            print(info)
+            eachrow.append(info)
 
-dataframe = pd.DataFrame(eachrow)
-print(dataframe)
+    dataframe = pd.DataFrame(eachrow)
+    print(dataframe)
 
-dataframe.to_csv("testfinal.csv",index=False,sep=',')
+    dataframe.to_csv("rent.csv",index=False,sep=',')
