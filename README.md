@@ -63,8 +63,10 @@ The blue box represents house with no subway nearby, and the orange box represen
 One is around 3500 RMB, about 500 dollars, and the other one is about 5700. This is because the difference of house area. 
 The house area ranges from 40 m2 to more than 150 m2. 
 
-![image](https://github.com/ruobing110/final_projects/raw/master/figures/house_price_histogram_with_mark.png)
 
+<div align=center>
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/house_price_histogram_with_mark.png" height="250px" alt="" >
+</div>
 
 In this subway dataset and house rent dataset,  the longitude and latitude for each house and subway station are provided. 
 After calculation , we get which subway station is the nearest one for a house and the distance between the house and its nearest metro station. 
@@ -75,8 +77,14 @@ The y axis represent the average rent by square meters. And from this plot, as t
 >The calculation result shows the distance between house and metro station, for which distance within 1km, the average rents per square meters is 95, in total 4697 each house. 
 While the distance between 1km and 2 km, the average price decrease to 70 per square meters, in total 4024 each house .  
 
-![image](https://github.com/ruobing110/final_projects/raw/master/figures/house_sale_price_with_metro_distance.jpg)
+<div align=center>
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/house_sale_price_with_metro_distance.jpg" height="250px" alt="" >
+</div>
 
+We draw a regplot to show the regression model. The line in the plot shows that. As the distance increase, each m will cause the 0.02422 decrease in price. 
+The intercection for this line is 107.  which means  the unit rent price decrease 242 RMB each km further from nearest metro station.
+As there are so many points so we draw another plot, hexplot. From this plot we can see, a lot of points gathered in the bottom left corner. 
+Most house rent is about 100 yuan per square meters and the nearest distance from subway stations within 1 kilometers.
 
 
 <div align=center>
