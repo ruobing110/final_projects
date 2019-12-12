@@ -65,20 +65,24 @@ The house area ranges from 40 m2 to more than 150 m2.
 
 ![image](https://github.com/ruobing110/final_projects/raw/master/figures/house_price_histogram_with_mark.png)
 
-In this subway dataset and house rent dataset, we have the longitude and latitude for each house and subway station. 
+
+In this subway dataset and house rent dataset,  the longitude and latitude for each house and subway station are provided. 
 After calculation , we get which subway station is the nearest one for a house and the distance between the house and its nearest metro station. 
+
+And the boxplot is the overiew of the nearest distance and average rent
+The horizontal  axis represent the distance within 1 kilometer, the distance between 1 and two km and so on. 
+The y axis represent the average rent by square meters. And from this plot, as the distance increase, the rent per square meters decrease. 
+>The calculation result shows the distance between house and metro station, for which distance within 1km, the average rents per square meters is 95, in total 4697 each house. 
+While the distance between 1km and 2 km, the average price decrease to 70 per square meters, in total 4024 each house .  
 
 ![image](https://github.com/ruobing110/final_projects/raw/master/figures/house_sale_price_with_metro_distance.jpg)
 
 
-And the boxplot is the overiew of the nearest distance and average rent
-The horizontal  axis represent the distance within 1 kilometer, the distance between 1 and two km and so on. 
-The y axis represent the average rent by square meters. As we can see from this plot, as the distance increase, the rent per square meters decrease. 
-And the calculation result shows the distance between house and metro station. 
-For that distance within 1km, the average rents per square meters is 95, in total 4697 each house. While that distance between 1km and 2 km, 
-the average price decrease to 70 per square meters, in total 4024 each house .  
 
-
+<div align=center>
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/distance_average_price.jpg" height="250px" alt="">
+<img src="https://github.com/ruobing110/final_projects/raw/master/figures/hexplot.jpg" height="250px" alt="" >
+</div>
 
 
 
