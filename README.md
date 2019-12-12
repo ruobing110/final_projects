@@ -81,9 +81,9 @@ While the distance between 1km and 2 km, the average price decrease to 70 per sq
 <img src="https://github.com/ruobing110/final_projects/raw/master/figures/house_sale_price_with_metro_distance.jpg" height="250px" alt="" >
 </div>
 
-We draw a regplot to show the regression model. The line in the plot shows that. As the distance increase, each m will cause the 0.02422 decrease in price. 
-The intercection for this line is 107.  which means  the unit rent price decrease 242 RMB each km further from nearest metro station.
-As there are so many points so we draw another plot, hexplot. From this plot we can see, a lot of points gathered in the bottom left corner. 
+>We draw a regplot to show the regression model. The linear regression illustrates that as the each m increase in distance, will cause 0.02422 decrease in price. 
+The intersection is 107, which means the unit rent price decrease 242 RMB each km further from nearest metro station.
+As there are so many overlapping points, a hexplot is generated to show the clustering. From this plot, a lot of points gathered in the bottom left corner. 
 Most house rent is about 100 yuan per square meters and the nearest distance from subway stations within 1 kilometers.
 
 
